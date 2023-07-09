@@ -1,3 +1,54 @@
-body{
+* {
+    margin: 0;
+}
+
+body {
     font-family: 'Work Sans', sans-serif;
+}
+
+.head-title {
+
+    font-size: 65px;
+    font-weight: 700px;
+    width: 535px;
+    padding: 216px 230px 0 800px;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    /* max-width: 535px; */
+    text-align: right;
+    color: black
+}
+
+.head-des {
+
+    font-size: 16px;
+    padding: 0px 230px 0 840px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 494px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: right;
+    background-image: url(../images/banner/banner2.png);
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 809px;
+    flex-shrink: 0;
+}
+
+.primary-btn {
+    font-size: 20px;
+    margin: 32px 230px 0 1100px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: white;
+    width: 160px;
+    border: 0;
+    height: 64px;
+    margin-right: 230px;
 }
